@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Outlaw:wght@400;500;600;700;800;900&display=swap");
 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
@@ -36,10 +40,6 @@ input,
 textarea {
   font-family: 'Helvetica Neue'
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 :root {
   --black-gradient: linear-gradient(
