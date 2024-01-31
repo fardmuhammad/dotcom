@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         ydkj: ["YDKJ", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
       },
     },
     screens: {

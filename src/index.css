@@ -1,8 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Outlaw:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer utilities {
+  .font-condensed {
+    font-stretch: condensed;
+  };
+  .font-normalStretch {
+    font-stretch: normal;
+  }
+  .font-extraCondensed {
+    font-stretch: extra-condensed;
+  }
+  .white-space-pre-line {
+    white-space: pre-line;
+  }
+}
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -10,18 +25,9 @@
 }
 
 @font-face {
-  font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
-}
-
-@font-face {
   font-family: 'YDKJ';
   src: url('./assets/fonts/JAr____.woff2') format('woff2');
+  font-stretch: normal;
 }
 
 @font-face {
@@ -166,8 +172,8 @@ textarea {
   filter: blur(123px);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+.light-blue__gradient {
+  background: linear-gradient(90deg, #7ca6e9 0%, #5e79b5 100%);
   filter: blur(900px);
 }
 
