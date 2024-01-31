@@ -2,6 +2,8 @@ import styles from './styles';
 
 import { section } from './components';
 
+// TO-DO: Work section
+
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -20,6 +22,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <section.Stats />
         <section.Resume />
+        {/* <section.Work /> */}
         <section.Testimonials />
         <section.Footer />
       </div>

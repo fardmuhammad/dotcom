@@ -116,9 +116,8 @@ const Footer = () => (
         mt-6
       ">
         {socialMedia.map((social, index) => (
-          <a href={social.link}>
+          <a href={social.link}  key={social.id}>
           <img 
-            key={social.id}
             src={social.icon}
             alt={social.id}
             className={`

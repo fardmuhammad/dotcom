@@ -1,6 +1,6 @@
 import { resumeEntries } from "../../constants";
 import { ResumeEntry } from "../atoms";
-import { section } from "..";
+import { organisms } from "..";
 import styles from "../../styles";
 
 const Resume = () => (
@@ -11,6 +11,8 @@ const Resume = () => (
     ${styles.flexCenter}
     flex-col
     relative
+    pt-[80px]
+    -mt-[80px]
     `}
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full white__gradient"/>
@@ -34,6 +36,10 @@ const Resume = () => (
         Resume
       </h1>
     </div>
+    <organisms.Education />
+    <div className={`${styles.flexCenter} my-10 font-ydkj text-neutral-50 text-[18px]`}>
+      Work History
+    </div>
     <div className="
       flex
       flex-col
@@ -47,8 +53,8 @@ const Resume = () => (
         <ResumeEntry key={entry.id} {...entry} />
       ))}
     </div>
-    <section.Employers />
-    <section.Clients />
+    <organisms.Employers />
+    <organisms.Clients />
     
   </section>
 )

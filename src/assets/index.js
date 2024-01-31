@@ -1,15 +1,8 @@
-import logo from "./images/logo.svg";
 import quotes from "./images/quotes.svg";
-import send from "./images/Send.svg";
-import shield from "./images/Shield.svg";
-import star from "./images/Star.svg";
 import menu from "./images/menu.svg";
 import close from "./images/close.svg";
 
-import google from "./images/google.svg";
-import apple from "./images/apple.svg";
 import arrowUp from "./images/arrow-up.svg";
-import discount from "./images/Discount.svg";
 
 import facebook from "./images/facebook.svg";
 import instagram from "./images/instagram.svg";
@@ -40,18 +33,15 @@ import target from "./images/target.png";
 import walgreens from "./images/walgreens.png";
 import walmart from "./images/walmart.png";
 
+import depaul from "./images/depaul.png";
+import iit from "./images/IIT.png";
+import wyoung from "./images/wyoung.png";
+
 export {
-  logo,
   quotes,
-  send,
-  shield,
-  star,
   menu,
   close,
-  google,
-  apple,
   arrowUp,
-  discount,
   facebook,
   instagram,
   linkedin,
@@ -76,4 +66,7 @@ export {
   target,
   walgreens,
   walmart,
+  depaul,
+  iit,
+  wyoung,
 };
