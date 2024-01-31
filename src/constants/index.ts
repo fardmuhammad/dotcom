@@ -296,13 +296,18 @@ export const footerLinks: iFooterLinkGroup[] = [
         link: "https://www.github.com/fardmuhammad",
       },
       {
+        id: "githubRepo",
+        name: "Github Repo of this Site",
+        link: "https://github.com/fardmuhammad/dotcom",
+      },
+      {
         id: "heyitsfard",
-        name: "Entertainment",
+        name: "My Entertainment Portfolio",
         link: "https://www.heyitsfard.com/",
       },
       {
         id: "youtube",
-        name: "YouTube",
+        name: "'WTFG Channel 78' on YouTube",
         link: "https://www.youtube.com/@WTFG78",
       },                                                                             
     ],
