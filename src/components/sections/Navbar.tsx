@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { close, menu, sublogoFM } from '../../assets';
 import { navLinks } from "../../constants";
-import styles from "../../styles";
 
 const Navbar = () => {
 
