@@ -87,35 +87,16 @@ export const navLinks: iNavLink[] = [
     id: "testimonials",
     title: "References",
   }
-  /* {
-    id: "contact",
-    title: "Contact",
-  }, */
 ];
 
-export const features: iFeatures[] = [
+/* export const features: iFeatures[] = [
   {
     id: "feature-1",
     icon: img.star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: img.shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: img.send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
+    title: "",
+    content: "",
+  }...
+]; */
 
 export const feedback: iFeedback[] = [
   {
@@ -287,8 +268,8 @@ export const stats: iStats[] = [
 
 export const footerLinks: iFooterLinkGroup[] = [
   {
-    id: 'otherPlaces',
-    title: "Other places",
+    id: 'devLinks',
+    title: "Development Links",
     links: [
       {
         id: "github",
@@ -300,6 +281,12 @@ export const footerLinks: iFooterLinkGroup[] = [
         name: "Github Repo of this Site",
         link: "https://github.com/fardmuhammad/dotcom",
       },
+    ],
+  },
+  {
+    id:'otherplaces',
+    title: "Other Places",
+    links: [
       {
         id: "heyitsfard",
         name: "My Entertainment Portfolio",
@@ -309,46 +296,13 @@ export const footerLinks: iFooterLinkGroup[] = [
         id: "youtube",
         name: "'WTFG Channel 78' on YouTube",
         link: "https://www.youtube.com/@WTFG78",
-      },                                                                             
+      },
+
     ],
   },
   /* {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
+    title: "Group3",
+    links: [],
   }, */
 ];
 

@@ -9,6 +9,7 @@ const Hero = () => (
       md:flex-row
       flex-col
       ${styles.paddingY}
+      pt-[80px]
     `}
   >
     <div

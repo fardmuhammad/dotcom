@@ -11,6 +11,8 @@ const Resume = () => (
     ${styles.flexCenter}
     flex-col
     relative
+    pt-[80px]
+    -mt-[80px]
     `}
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full white__gradient"/>

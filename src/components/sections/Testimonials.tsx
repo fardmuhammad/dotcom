@@ -11,6 +11,8 @@ const Testimonials = () => (
       ${styles.flexCenter}
       flex-col
       relative
+      pt-[80px]
+      -mt-[80px]
     `}
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient"/>
@@ -31,7 +33,7 @@ const Testimonials = () => (
       <h1
         className={styles.heading2}
       >
-        References and <br className="sm:block hidden"/>Testimonials
+        References and <br className="sm:hidden block"/>Testimonials
       </h1>
       {/* <div
         className="w-full md:mt-0 mt-6"
