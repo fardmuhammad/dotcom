@@ -40,6 +40,10 @@ import target from "./images/target.png";
 import walgreens from "./images/walgreens.png";
 import walmart from "./images/walmart.png";
 
+import depaul from "./images/depaul.png";
+import iit from "./images/IIT.png";
+import wyoung from "./images/wyoung.png";
+
 export {
   logo,
   quotes,
@@ -76,4 +80,7 @@ export {
   target,
   walgreens,
   walmart,
+  depaul,
+  iit,
+  wyoung,
 };

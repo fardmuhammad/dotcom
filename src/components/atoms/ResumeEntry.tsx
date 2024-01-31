@@ -29,7 +29,7 @@ const ResumeEntry = ({
   '>
     <div className='
       hidden
-      md:block
+      sm:block
       rounded-full
       overflow-hidden
       min-w-[90px]

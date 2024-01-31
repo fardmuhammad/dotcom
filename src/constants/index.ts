@@ -58,6 +58,16 @@ export interface iResumeEntry extends iTitled {
   duties: iDuty[];
 }
 
+export interface iEducation extends iDentification {
+  logo: string;
+  schoolName: string;
+  startDate: Date;
+  endDate: Date;
+  location: string;
+  degree: string;
+  concentration?: string;
+}
+
 export const valueRealizationText = "value realization";
 
 export const navLinks: iNavLink[] = [
@@ -410,5 +420,36 @@ export const clients: iClients[] = [
   },
 ];
 
+export const schools: iEducation[] = [
+  {
+    id: 'depaul',
+    schoolName: 'DePaul University',
+    logo: img.depaul,
+    startDate: new Date(2004, 7, 1),
+    endDate: new Date(2008, 5, 15),
+    degree: 'Master\'s Degree',
+    concentration: 'Computer Graphics & Animation',
+    location: 'Chicago, IL',
+  },
+  {
+    id: 'iit',
+    schoolName: 'Illinois Institute of Technology',
+    logo: img.iit,
+    startDate: new Date(1998, 7, 1),
+    endDate: new Date(2001, 11, 16),
+    degree: 'Bachelor\'s Degree',
+    concentration: 'Computer Science',
+    location: 'Chicago, IL',
+  },
+  {
+    id: 'wyoung',
+    schoolName: 'Whitney Young Magnet High School',
+    logo: img.wyoung,
+    startDate: new Date(1994, 8, 6),
+    endDate: new Date(1998, 5, 15),
+    degree: 'High School Diploma with Honors',
+    location: 'Chicago, IL',
+  }
+]
 const currentYear = new Date().getFullYear();
 export const copyrightText = `©${currentYear} Fard Muhammad. All Rights Reserved.`
