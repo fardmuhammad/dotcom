@@ -52,9 +52,9 @@ const ResumeEntry = ({
       py-5
       w-full
     '>
-      <h1 className='font-outfit font-thin md:text-[28px] text-[24px]'>{companyName} — {location}</h1>
-      <h3 className='font-outfit font-normal italic text-[10px] text-neutral-300'>{companyDesc}</h3>
-      <div className='flex xs:flex-row flex-col w-full font-outfit font-medium md:text-[25px] sm:text-[20px] text-[15px]'>
+      <h1 className='font-outfit font-[500] md:text-[28px] text-[24px]'>{companyName} <span className='sm:inline hidden'>— </span><br className="sm:hidden block" />{location}</h1>
+      <h3 className='font-outfit font-[300] italic text-[16px] text-neutral-300 sm:block hidden'>{companyDesc}</h3>
+      <div className='flex xs:flex-row flex-col w-full font-outfit font-medium md:text-[25px] sm:text-[20px] text-[18px]'>
       <div
         className='flex-1'
       >
@@ -66,6 +66,7 @@ const ResumeEntry = ({
       {duties.length &&
         (<ul className='
           list-disc
+          ml-[20px]
         '>
           {
             duties.map(duty => {
@@ -74,7 +75,7 @@ const ResumeEntry = ({
                 .replace('Þ', `<span class='${boldClass}'>`).replace('þ', '</span>');
               
               return (
-                <li key={duty.id} className='text-justify font-outfit sm:text-[16px] text-[12px]'>
+                <li key={duty.id} className='text-justify font-outfit sm:text-[18px] text-[16px]'>
                   {
                     duty.valueRealization
                     ? <span id={`${duty.id}-vr`} className={`italic text-white underline font-semibold`}>{`${valueRealizationText.toUpperCase()}:`}</span>

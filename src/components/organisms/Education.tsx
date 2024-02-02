@@ -36,7 +36,7 @@ const Education = () => (
           sm:my-0
           mr-0
           sm:text-[18px]
-          text-[12px]
+          text-[16px]
         `}>
           <div 
             id={`${school.id}_logo`}
@@ -65,11 +65,11 @@ const Education = () => (
           <div className={`
             
           `}>
-            <h1>{school.schoolName}</h1>
-            <h1 className={`font-thin`}>{school.location}</h1>
-            <h2>{school.degree}</h2>
-            {school.concentration && (<h2>{school.concentration}</h2>)}
-            <h2 className={`font-thin`}>{format(school.startDate, 'MMM y')} — {format(school.endDate, 'MMM y')}</h2>
+            <h1 className={`font-semibold`}>{school.schoolName}</h1>
+            <h1 className={`font-normal`}>{school.location}</h1>
+            <h2 className={`font-semibold`}>{school.degree}</h2>
+            {school.concentration && (<h2 className={`font-semibold`}>{school.concentration}</h2>)}
+            <h2 className={`font-normal`}>{format(school.startDate, 'MMM y')} — {format(school.endDate, 'MMM y')}</h2>
           </div>
         </div>
       ))}  
