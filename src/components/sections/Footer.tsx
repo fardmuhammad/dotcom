@@ -41,19 +41,22 @@ const Footer = () => (
         flex-[1.5] 
         w-full 
         flex 
-        flex-row 
+        sm:flex-row
+        flex-col
         justify-between 
         flex-wrap 
         md:mt-0 
-        mt-10
+        mt-5
       ">
-        {footerLinks.map(footerLink => (
+        {footerLinks.map((footerLink, index) => (
           <div key={footerLink.id} className={`
             flex
             flex-col
-            ss:my-0
-            my:4
+            sm:my-0
+            my:10
             min-w-[150px]
+            sm:mt-[10px]
+            ${index !== footerLinks.length - 1 ? 'mt-0' : 'mt-[30px]'}
           `}>
             <h4 className={`
               font-ydkj
