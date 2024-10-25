@@ -20,6 +20,7 @@ import liquidus from "./images/liquidusLogo.png";
 import jackbox from "./images/jackboxLogo.png";
 import kunoichi from "./images/kunoichiLogo.png";
 import dkg from "./images/dkgLogo.png";
+import nbcu from "./images/nbcu.png";
 
 import arcww from "./images/arc-bw.png";
 import bestBuy from "./images/BestBuy.png";
@@ -55,6 +56,7 @@ export {
   liquidus,
   jackbox,
   dkg,
+  nbcu,
   arcww,
   bestBuy,
   cbs,

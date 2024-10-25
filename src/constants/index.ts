@@ -22,7 +22,7 @@ export interface iFeedback extends iTitled {
 }
 
 export interface iStats extends iTitled {
-  value: string;
+  date: Date;
 }
 
 export interface iFooterLink extends iDentification{
@@ -127,6 +127,29 @@ export const feedback: iFeedback[] = [
 
 export const resumeEntries: iResumeEntry[] = [
   {
+    id: 'nbcu',
+    logo: img.nbcu,
+    title: 'Senior Software Engineer, CNBC',
+    companyName: 'NBCUniversal',
+    companyDesc: 'One of the world\'s leading media and entertainment companies.',
+    location: 'Englewood Cliffs, NJ (remote from Los Angeles)',
+    startDate: new Date('3/18/2024'),
+    endDate: 'Present',
+    duties: [
+      {
+        id: 'nbcu-duty1',
+        dutyText: 'Build, test, review, and ship performant experiences for CNBC’s marketing and subscription platforms.'
+      },
+      {
+        id: 'nbcu-duty2',
+        dutyText: 'Collaborate and coordinate closely with fellow DTC product teams, platform teams, and marketing team.'
+      },
+      {
+        id: 'nbcu-duty3',
+        dutyText: 'Successfully plan & execute projects involving multiple engineers and complex requirements.'
+      },
+    ]
+  },  {
     id: 'dkg',
     logo: img.dkg,
     title: 'UI Developer',
@@ -252,17 +275,17 @@ export const stats: iStats[] = [
   {
     id: "stats-1",
     title: "Years of Front-End Experience",
-    value: "18",
+    date: new Date("2006-03-01"),
   },
   {
     id: "stats-2",
     title: "Years of JS Development Experience",
-    value: "11",
+    date: new Date("2013-01-01"),
   },
   {
     id: "stats-3",
     title: "Years of React/TS Experience",
-    value: "3",
+    date: new Date("2020-02-27"),
   },
 ];
 
