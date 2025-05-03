@@ -132,21 +132,33 @@ export const resumeEntries: iResumeEntry[] = [
     title: 'Senior Software Engineer, CNBC',
     companyName: 'NBCUniversal',
     companyDesc: 'One of the world\'s leading media and entertainment companies.',
-    location: 'Remote from Los Angeles',
+    location: 'New York, NY (remote from Los Angeles)',
     startDate: new Date('3/18/2024'),
     endDate: 'Present',
     duties: [
       {
         id: 'nbcu-duty1',
-        dutyText: 'Build, test, review, and ship performant experiences for CNBC’s marketing and subscription platforms using React programming and Jest unit testing.'
+        dutyText: 'Worked with CNBC’s Acquisitions and Retentions team March-December 2024, currently working with the Direct-To-Consumer Web Team since January 2025.'
       },
       {
         id: 'nbcu-duty2',
-        dutyText: 'Collaborate and coordinate closely with fellow Direct-to-Consumer product, design, platform, and marketing teams.'
+        dutyText: 'Build, test, review, and ship performant experiences for CNBC’s marketing and subscription platforms.'
       },
       {
         id: 'nbcu-duty3',
+        dutyText: 'Collaborate and coordinate closely with fellow Direct-to-Consumer product, design, platform, and marketing teams.'
+      },
+      {
+        id: 'nbcu-duty4',
+        dutyText: 'Team up on the design of system architecture, data models, data flows, schemas and API contracts.'
+      },
+      {
+        id: 'nbcu-duty5',
         dutyText: 'Successfully plan & execute projects involving multiple engineers and complex requirements.'
+      },
+      {
+        id: 'nbcu-duty6',
+        dutyText: 'Identify, define, and solve strategic problems, thinking holistically about the whole system and tackle tech debt proactively.'
       },
     ]
   },  {
@@ -155,7 +167,7 @@ export const resumeEntries: iResumeEntry[] = [
     title: 'UI Developer',
     companyName: 'Dillon Kane Group',
     companyDesc: 'A group of affiliated companies that invests in, builds, and revitalizes technology solution businesses.',
-    location: 'Chicago, IL (remote from Los Angeles)',
+    location: 'Chicago, IL (eventually remote from Los Angeles)',
     startDate: new Date('2/26/2020'),
     endDate: new Date('11/17/2023'),
     duties: [
