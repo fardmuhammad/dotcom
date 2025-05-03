@@ -132,17 +132,17 @@ export const resumeEntries: iResumeEntry[] = [
     title: 'Senior Software Engineer, CNBC',
     companyName: 'NBCUniversal',
     companyDesc: 'One of the world\'s leading media and entertainment companies.',
-    location: 'Englewood Cliffs, NJ (remote from Los Angeles)',
+    location: 'Remote from Los Angeles',
     startDate: new Date('3/18/2024'),
     endDate: 'Present',
     duties: [
       {
         id: 'nbcu-duty1',
-        dutyText: 'Build, test, review, and ship performant experiences for CNBC’s marketing and subscription platforms.'
+        dutyText: 'Build, test, review, and ship performant experiences for CNBC’s marketing and subscription platforms using React programming and Jest unit testing.'
       },
       {
         id: 'nbcu-duty2',
-        dutyText: 'Collaborate and coordinate closely with fellow DTC product teams, platform teams, and marketing team.'
+        dutyText: 'Collaborate and coordinate closely with fellow Direct-to-Consumer product, design, platform, and marketing teams.'
       },
       {
         id: 'nbcu-duty3',
