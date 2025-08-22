@@ -148,6 +148,14 @@ export const resumeEntries: iResumeEntry[] = [
         id: 'nbcu-duty3',
         dutyText: 'Successfully plan & execute projects involving multiple engineers and complex requirements.'
       },
+      {
+        id: 'nbcu-duty4',
+        dutyText: 'Built, tested, and maintained the News & Peers Side Drawer, a source of additional information about stock ticker symbols for CNBC PRO and Investing Club Subscribers.',
+      },
+      {
+        id: 'nbcu-duty5',
+        dutyText: 'Will remain with NBCU up to the Versant Split in late 2025.'
+      },
     ]
   },  {
     id: 'dkg',
