@@ -160,6 +160,14 @@ export const resumeEntries: iResumeEntry[] = [
         id: 'nbcu-duty6',
         dutyText: 'Identify, define, and solve strategic problems, thinking holistically about the whole system and tackle tech debt proactively.'
       },
+      {
+        id: 'nbcu-duty7',
+        dutyText: 'Built, tested, and maintained the News & Peers Side Drawer, a source of additional information about stock ticker symbols for CNBC PRO and Investing Club Subscribers.',
+      },
+      {
+        id: 'nbcu-duty8',
+        dutyText: 'Will remain with NBCU up to the Versant Split in late 2025.'
+      },
     ]
   },  {
     id: 'dkg',
