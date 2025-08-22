@@ -60,7 +60,7 @@ const ResumeEntry = ({
       >
         <h2 className=''>{title}</h2>
       </div>
-      <div><h2 className='flex-1 xs:text-right text-left'>{`${format(startDate, "MMMM y")} — ${format(endDate, "MMMM y")}`}</h2></div>
+      <div><h2 className='flex-1 xs:text-right text-left'>{`${format(startDate, "MMMM y")} — ${endDate !== "Present" ? format(endDate, "MMMM y") : endDate}`}</h2></div>
       </div>
       
       {duties.length &&
