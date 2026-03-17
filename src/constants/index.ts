@@ -392,7 +392,7 @@ export const socialMedia: iSocialMedia[] = [
     link: "https://www.facebook.com/mrfardmuhammad",
   },
   {
-    id: "social-media-4",
+    id: "social-media-3",
     icon: img.linkedin,
     link: "https://www.linkedin.com/in/fardmuhammad",
   },
