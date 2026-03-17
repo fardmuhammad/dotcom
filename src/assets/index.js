@@ -21,6 +21,7 @@ import jackbox from "./images/jackboxLogo.png";
 import kunoichi from "./images/kunoichiLogo.png";
 import dkg from "./images/dkgLogo.png";
 import nbcu from "./images/nbcu.png";
+import versant from "./images/versant.png";
 
 import arcww from "./images/arc-bw.png";
 import bestBuy from "./images/BestBuy.png";
@@ -57,6 +58,7 @@ export {
   jackbox,
   dkg,
   nbcu,
+  versant,
   arcww,
   bestBuy,
   cbs,

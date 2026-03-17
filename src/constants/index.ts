@@ -127,6 +127,37 @@ export const feedback: iFeedback[] = [
 
 export const resumeEntries: iResumeEntry[] = [
   {
+    id: 'versant',
+    logo: img.versant,
+    title: 'Senior Software Engineer, Versant Lifestyle',
+    companyName: 'Versant Media',
+    companyDesc: 'An industry-leading media and entertainment business.',
+    location: 'Los Angeles, CA',
+    startDate: new Date('1/1/2026'),
+    endDate: 'Present',
+    duties: [
+      {
+        id: 'vsnt-duty1',
+        dutyText: 'Engineering and delivering highly performant experiences in the E! News website, ensuring robust testing and seamless deployment.'
+      },
+      {
+        id: 'vsnt-duty2',
+        dutyText: 'Facilitating cross-functional success by partnering with product, design, and marketing teams, translating business needs into technical solutions.'
+      },
+      {
+        id: 'vsnt-duty3',
+        dutyText: 'Shaping system foundational elements through collaborative design of architecture, data models, and API specifications.'
+      },
+      {
+        id: 'vsnt-duty4',
+        dutyText: 'Orchestrating and leading significant engineering projects from conception to completion, consistently meeting complex requirements and coordinating diverse teams.'
+      },
+      {
+        id: 'vsnt-duty5',
+        dutyText: 'Strategically addressing technical challenges, implementing holistic solutions that improved system health and proactively managed technical debt.'
+      },
+    ]
+  },{
     id: 'nbcu',
     logo: img.nbcu,
     title: 'Senior Software Engineer, CNBC',
@@ -134,7 +165,7 @@ export const resumeEntries: iResumeEntry[] = [
     companyDesc: 'One of the world\'s leading media and entertainment companies.',
     location: 'New York, NY (remote from Los Angeles)',
     startDate: new Date('3/18/2024'),
-    endDate: 'Present',
+    endDate: new Date('12/31/2025'),
     duties: [
       {
         id: 'nbcu-duty1',
@@ -362,11 +393,6 @@ export const socialMedia: iSocialMedia[] = [
   },
   {
     id: "social-media-3",
-    icon: img.twitter,
-    link: "https://www.twitter.com/fardmuhammad",
-  },
-  {
-    id: "social-media-4",
     icon: img.linkedin,
     link: "https://www.linkedin.com/in/fardmuhammad",
   },
